@@ -1,0 +1,53 @@
+$fontcolor: red;
+$textAllignment: right;
+
+
+#control {
+    text-align: center;
+}
+#row2 {
+    text-align: $textAllignment;
+}
+a {
+    color: $fontcolor;
+    text-align: $textAllignment;
+}
+.SDkEP {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+body, input, button {
+    border-radius: 20px;
+    background-color: rgb(26, 23, 23);
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+}
+input:hover {
+    color:red;
+}
+.lJ9FBc input[type="submit"], .gbqfba {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+#advanced-btn {
+    background-color: blue;
+    color: white;
+}
+
+#advanced-input {
+    text-align: left;
+}
